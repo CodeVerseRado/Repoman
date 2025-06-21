@@ -18,11 +18,11 @@ module.exports = {
   embedTimeout: 5,
   errorLog: "",
   nodes: [
-    {
-      name: "GlaceYT",
-      url: "lava.link:80",
-      auth: "youshallnotpass",
-      secure: false
-    }
-  ]
-};
+  {
+    name: "LavalinkPublic",
+    url: "lavalink.darrieus.dev:443",
+    auth: "www.freelavalink.ga",
+    secure: true
+  }
+]
+
