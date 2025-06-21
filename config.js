@@ -1,5 +1,4 @@
 
-
 require('dotenv').config();
 
 module.exports = {
@@ -18,11 +17,11 @@ module.exports = {
   embedTimeout: 5,
   errorLog: "",
   nodes: [
-  {
-    name: "LavalinkPublic",
-    url: "lavalink.darrieus.dev:443",
-    auth: "www.freelavalink.ga",
-    secure: true
-  }
-]
-
+    {
+      name: "GlaceYT",
+      url: "lava.link:80",
+      auth: "youshallnotpass",
+      secure: false
+    }
+  ]
+};
